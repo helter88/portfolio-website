@@ -1,4 +1,5 @@
 import React from 'react'
+import NavigationButton from './buttons/NavigationButton';
 import styles from './Header.module.css';
 
 
@@ -10,6 +11,7 @@ const Header: React.FC = () => {
             <span className={styles['heading-primary-main']}>ARTUR HELTA</span>
             <span className={styles['heading-primary-sub']}>React & Typescript Developer</span>
         </h1>
+        <NavigationButton text="Get in touch" />
         </div>
         
     </header>

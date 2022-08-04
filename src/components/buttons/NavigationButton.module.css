@@ -1,0 +1,20 @@
+.btn-container{
+    display:flex;
+    justify-content: center;
+}
+.nav-btn{
+    margin-top: 3rem;
+    text-decoration: none;
+    background-color: #005268;
+    padding: 2rem 7rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+
+}
+.nav-btn:hover{
+   transform:translateY(-0.2rem);
+}
+
+.nav-btn:active{
+    transform:translateY(-0.1rem);
+ }
