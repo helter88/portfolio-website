@@ -1,0 +1,10 @@
+
+.navigation {
+    position:fixed;
+    background-color: #005268;
+    height: 6rem;
+    width: 100%;
+}
+.logo{
+    height: 4rem;
+}

@@ -4,8 +4,8 @@ h1 {
 
 .header {
   color:aquamarine;
-  height: 95vh;
-  background-image: linear-gradient(to right bottom, rgb(6, 40, 61), #005268);
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #06283d, #005268);
   background-size: cover;
   background-position: top;
 }
