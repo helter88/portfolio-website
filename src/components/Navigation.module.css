@@ -1,10 +1,33 @@
 
 .navigation {
     position:fixed;
+    display: flex;
+    justify-content: space-between;
     background-color: #005268;
     height: 6rem;
     width: 100%;
 }
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+}
 .logo{
     height: 4rem;
+    margin-bottom: 0.7rem;
+
+}
+.selection-nav-container{
+    margin-right: 7rem;
+    display: flex;
+    color: #D3F4FF;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    font-size: 1rem;
 }
