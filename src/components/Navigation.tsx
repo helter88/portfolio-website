@@ -11,10 +11,10 @@ const Navigation = () => {
       
       <div className={styles['selection-nav-container']}>
         <ul>
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>Resume</li>
-        <li>Contact</li>
+        <li><a className={styles['top-nav-bar']}>Home</a></li>
+        <li><a className={styles['top-nav-bar']}>Portfolio</a></li>
+        <li><a className={styles['top-nav-bar']}>Resume</a></li>
+        <li><a className={styles['top-nav-bar']}>Contact</a></li>
         </ul>
         
       </div>

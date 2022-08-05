@@ -36,6 +36,11 @@ h1 {
     animation-duration: 2s;
 }
 
+.arrow-container{
+    height: 1rem;
+    width: 1rem;
+}
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;
