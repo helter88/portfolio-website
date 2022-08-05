@@ -1,25 +1,24 @@
 import React from 'react'
-import NavigationButton from './buttons/NavigationButton';
+import logo from './../img/Logo-AH.png';
 import styles from './Header.module.css';
-import {ReactComponent as BottomArrows} from './../img/double-arrow-bottom-icon.svg';
 
-
-const Header: React.FC = () => {
+const Header = () => {
   return (
-    <header className={styles.header}>
-        <div className={styles['text-box']}>
-            <h1 className={styles['heading-primary']}>
-            <span className={styles['heading-primary-main']}>ARTUR HELTA</span>
-            <span className={styles['heading-primary-sub']}>React & Typescript Developer</span>
-        </h1>
-        <NavigationButton text="Get in touch" />
-        <div className={styles['arrow-container']}>
-          <BottomArrows fill='#D3F4FF'/>
+    <div className={styles.header}>
+        <div className={styles['image-container']}>
+          <img src={logo} alt='logo' className={styles.logo} />  
         </div>
+      
+      <div className={styles['nav-container']}>
+        <ul>
+        <li><a className={styles['top-nav-bar']}>Home</a></li>
+        <li><a className={styles['top-nav-bar']}>Portfolio</a></li>
+        <li><a className={styles['top-nav-bar']}>Resume</a></li>
+        <li><a className={styles['top-nav-bar']}>Contact</a></li>
+        </ul>
         
-        </div>
-        
-    </header>
+      </div>
+    </div>
   )
 }
 

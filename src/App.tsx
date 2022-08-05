@@ -1,12 +1,12 @@
 import './App.css';
+import Hero from './components/Hero';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Header/>
+      <Header />
+      <Hero/>
       
     </div>
   );

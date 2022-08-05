@@ -1,0 +1,77 @@
+h1 {
+    font-size: 1rem;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #06283d, #005268);
+  background-size: cover;
+  background-position: top;
+}
+
+
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.heading-primary{
+    display: flex;
+    flex-direction: column;
+}
+.heading-primary-main{
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+    margin-left: 0.5rem;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+}
+.heading-primary-sub{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}
+
+.arrow-dimentions{
+    height: 1rem;
+    width: 1rem;
+    
+}
+.arrow-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
