@@ -6,4 +6,19 @@
     border-radius: 1rem;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
     width: 25rem;
+    height: 30rem;
+    
+}
+.logo-box{
+    display: flex;
+    justify-content: center;
+}
+.logo-dimentions{
+    width: 5rem;
+    height: 5rem;
+}
+.tech-list-box{
+    padding: 1rem;
+    font-size: 1rem;
+    display: flex;
 }
