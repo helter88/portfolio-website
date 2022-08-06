@@ -6,6 +6,7 @@
     background-color: #005268;
     height: 6rem;
     width: 100%;
+    z-index: 10;
 }
 .image-container {
     display: flex;

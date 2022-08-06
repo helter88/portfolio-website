@@ -7,20 +7,21 @@ import {ReactComponent as BottomArrows} from './../img/double-arrow-bottom-icon.
 const Header: React.FC = () => {
   return (
     <section className={styles.hero}>
-        <div className={styles['text-box']}>
+        <div className={styles['hero-content-main']}>
             <h1 className={styles['heading-primary']}>
             <span className={styles['heading-primary-main']}>ARTUR HELTA</span>
             <span className={styles['heading-primary-sub']}>React & Typescript Developer</span>
         </h1>
-        <NavigationButton text="Get in touch" />
+        
+        </div>
+          <NavigationButton text="Get in touch" />
         <div className={styles['arrow-container']}>
           <div className={styles['arrow-dimentions']}>
           <BottomArrows fill='#D3F4FF'/>
+        
         </div>
         </div>
         
-        
-        </div>
         
     </section>
   )
