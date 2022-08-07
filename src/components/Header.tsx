@@ -13,6 +13,7 @@ const Header = () => {
         <ul>
         <li><a className={styles['top-nav-bar']}>Home</a></li>
         <li><a className={styles['top-nav-bar']}>Portfolio</a></li>
+        <li><a className={styles['top-nav-bar']}>Skills</a></li>
         <li><a className={styles['top-nav-bar']}>Resume</a></li>
         <li><a className={styles['top-nav-bar']}>Contact</a></li>
         </ul>

@@ -32,6 +32,7 @@ ul {
 .top-nav-bar {
     padding: 0.3rem 0;
     backface-visibility: hidden;
+    cursor: pointer;
 }
 
 .top-nav-bar:hover{

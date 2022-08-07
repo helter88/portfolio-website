@@ -39,7 +39,8 @@
 }
 .arrow-container{
    position: absolute;
-   bottom: 5rem; 
+   bottom: 5rem;
+   cursor: pointer;
 }
 
 .arrow-dimentions{
