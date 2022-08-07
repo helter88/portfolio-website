@@ -1,3 +1,4 @@
+
 .card{
     background-image: linear-gradient(to left bottom, #06283d, #005268);
     font-size: 1.5rem;
@@ -8,7 +9,12 @@
     width: 22rem;
     height: 28rem;
     position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
     
+}
+.card:hover{
+    transform: translateY(-1.5rem) scale(1.03);
 }
 .logo-box{
     display: flex;
@@ -19,11 +25,16 @@
     height: 4rem;
 }
 .tech-list-box{
-    padding: 2rem .2rem;
-    font-size: 1rem;
+    padding: 1.5rem .2rem;
     font-weight: 200;
     display: flex;
     justify-content: flex-start;
+    gap: 0.6rem;
+    font-size: 1rem;
+}
+.tech-list-box p {
+    max-width: 4rem;
+    color: #FAB1D4;
 }
 
 .title{
@@ -34,12 +45,17 @@
 
 .description{
     padding: 1rem 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 .github-box{
     display: flex;
     justify-content: center;
+    padding: 1rem;
+    transition: all .3s;
+}
+.github-box:hover{
+    transform: scale(1.20);
 }
 .github-dimentions{
     width: 2rem;
