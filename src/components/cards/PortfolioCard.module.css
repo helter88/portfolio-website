@@ -49,10 +49,10 @@
     font-weight: 300;
 }
 .github-box{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
     transition: all .3s;
+    position: absolute;
+    bottom: 2rem;
+    left: 45%;
 }
 .github-box:hover{
     transform: scale(1.20);
