@@ -19,4 +19,7 @@
 
 .card-container{
     padding: 10rem 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
 }

@@ -3,7 +3,13 @@ import styles from './PortfolioCard.module.css';
 import { ReactComponent as Globe } from './../../img/card-icons/internet-icon.svg';
 import { ReactComponent as Github} from './../../img/card-icons/github-icon.svg';
 
-const PortfolioCard = () => {
+interface PortfolioCardProps {
+  title: string;
+  description: string;
+  tools: string[];
+}
+
+const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools}) => {
   return (
     <div className={styles.card}>
       <div className={styles['logo-box']}>
@@ -12,12 +18,10 @@ const PortfolioCard = () => {
         </div>
         
       </div>
-        <h3 className={styles['title']}>Portfolio website</h3>
-        <h6 className={styles['description']}>This website was made to present frontend skills by using modern framework, animations and own design.</h6>
+        <h3 className={styles['title']}>{title}</h3>
+        <h6 className={styles['description']}>{description}</h6>
         <div className={styles['tech-list-box']}>
-          <p>React</p>
-          <p>Typescript</p>
-          <p>CSS Modules Stylesheet</p>
+          {tools.map(tool => <p key={Math.random()}>{tool}</p>)}
         </div>
         <div className={styles['github-box']}>
           <div className={styles['github-dimentions']}>
