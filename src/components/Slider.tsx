@@ -6,26 +6,28 @@ import styles from './Slider.module.css';
 import 'swiper/css';
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import 'swiper/css/autoplay';
 
 // import required modules
-import { Navigation, Pagination } from "swiper";
-
+import { Navigation, Pagination, Autoplay } from "swiper";
+import { ReactComponent as Html} from './../img/skills-icons/html-icon.svg';
 const Slider = () => {
   return (
     <Swiper
         navigation={true}
-        slidesPerView={3}
+        autoplay={{delay: 800}}
+        slidesPerView={4}
         spaceBetween={5}
         pagination={{
           clickable: true,
         }}
-        modules={[Navigation,Pagination]}
+        modules={[Navigation,Pagination, Autoplay]}
         className={styles.swiper}
       >
          <SwiperSlide className={styles.slide}>
             <div className={'icon-container'}>
-              <div className={styles['icon-box']}>I</div>
-            <p className={styles['icon-description']}>JS</p>  
+              <div className={styles['icon-box']}><Html width='100%'/></div>
+            <p className={styles['icon-description']}>HTML</p>  
             </div>
             
          </SwiperSlide>
