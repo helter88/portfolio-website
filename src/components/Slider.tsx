@@ -14,7 +14,7 @@ const Slider = () => {
   return (
     <Swiper
         navigation={true}
-        slidesPerView={2}
+        slidesPerView={3}
         spaceBetween={5}
         pagination={{
           clickable: true,
@@ -22,8 +22,14 @@ const Slider = () => {
         modules={[Navigation,Pagination]}
         className={styles.swiper}
       >
-         <SwiperSlide className={styles['swipe-slide']}>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
+         <SwiperSlide className={styles.slide}>
+            <div className={'icon-container'}>
+              <div className={styles['icon-box']}>I</div>
+            <p className={styles['icon-description']}>JS</p>  
+            </div>
+            
+         </SwiperSlide>
+        <SwiperSlide className={styles.slide}>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
