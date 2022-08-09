@@ -4,7 +4,7 @@ import styles from './Portfolio.module.css';
 import { PortfolioCardData } from '../PortfolioCardData';
 
 
-const PortfolioList = PortfolioCardData.map(proj => <PortfolioCard key={proj.title} title= {proj.title} description ={proj.description} tools={proj.tools} />)
+const PortfolioList = PortfolioCardData.map(proj => <PortfolioCard key={proj.title} title= {proj.title} icon={proj.logo} description ={proj.description} tools={proj.tools} />)
 
 const Portfolio = () => {
   return (

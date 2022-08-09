@@ -38,7 +38,7 @@ export const PortfolioCardData = [
      },
      {
         title: 'Get data from API with Redux Toolkit',
-        logo: 'ToDoList',
+        logo: 'GetData',
         description: 'This project was made to train getting, storing and displaying data from simple API using Redux Toolkit ',
         tools: ['React', 'Typescript', 'Redux Toolkit','Talwind' ] 
      },

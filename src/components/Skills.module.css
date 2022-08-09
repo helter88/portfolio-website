@@ -14,3 +14,7 @@
     background-clip: text;
     color: transparent;
 }
+.slider-container{
+    padding: 2rem 5rem;
+    height: 5rem;
+}
