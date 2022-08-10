@@ -20,6 +20,19 @@
     font-size: 3.5rem;
     font-weight: 700;
     display: inline-block;
-
-
+    
+}
+.contact-container{
+    padding: 5rem 9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.first-column{
+    background-color: orangered;
+    justify-self: end;
+}
+.second-column{
+    background-color: brown;
+    justify-self: start;
 }
