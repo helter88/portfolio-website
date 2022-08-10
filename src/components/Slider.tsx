@@ -27,7 +27,7 @@ const Slider = () => {
          <SwiperSlide className={styles.slide}>
             <div className={'icon-container'}>
               <div className={styles['icon-box']}><Html width='100%'/></div>
-            <p className={styles['icon-description']}>HTML</p>  
+              <p className={styles['icon-description']}>HTML</p>  
             </div>
             
          </SwiperSlide>

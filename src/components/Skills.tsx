@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section className={styles.skills}>
         <div className={styles['text-box']} >
-          <h1> Skills</h1>  
+          <h1> SKILLS</h1>  
         </div>
         <div className={styles['slider-container']}>
           <Slider />

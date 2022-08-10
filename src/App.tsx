@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Portfolio />
       <Skills />
+      <Resume />
       
     </div>
   );
