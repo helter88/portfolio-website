@@ -1,10 +1,10 @@
 .resume{
     background-color: #D3F4FF;
-    padding-bottom: 5rem;
+    padding: 6rem;
 }
 .text-box{
     text-align: center;
-    padding: 4rem;
+    padding: 1rem;
 }
 
 .heading-secondary{
@@ -17,7 +17,7 @@
 
 }
 .description{
-    padding-top: 3rem;
+    padding: 3rem;
     color: #06283d ;
     font-size: 1.5rem;
     font-weight: 400;
