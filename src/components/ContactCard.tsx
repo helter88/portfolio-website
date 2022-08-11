@@ -12,7 +12,7 @@ const ContactCard: React.FC<CardType> = ({title, description}) => {
     
     <div className={styles['contact-box']}>
         <div className={styles['contact-icon-box']}>
-            <Phone fill= '#D3F4FF'/>
+            <Phone fill= '#a9c3cc'/>
         </div>
         <div className={styles['contact-text-box']}>
             <h6>{title}</h6>
