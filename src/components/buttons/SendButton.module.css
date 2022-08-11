@@ -1,0 +1,31 @@
+.button{
+    padding: 2rem;
+    text-decoration: none;
+    background-color: rgba(0, 101, 103, 0.765);
+    border-radius: 4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: 0.2s;
+    cursor: pointer;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    transform:translateY(-0.2rem);
+    border-bottom: 2px solid #1e9bff;
+}
+.button:active{
+    transform:translateY(-0.1rem);
+    border-bottom: none;
+}
+.text-button{
+    margin-right: 1rem;
+}
+
+.icon-container{
+    height: 1.5rem;
+    width: 1.5rem;
+}
