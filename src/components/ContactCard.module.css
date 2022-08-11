@@ -1,0 +1,23 @@
+
+.contact-box{
+    display: flex;
+    gap: 1rem;
+}
+.contact-icon-box{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+
+}
+
+.contact-box h6{
+    font-size: 1.2rem;
+    font-weight:600;
+    margin-bottom: 0.4rem;
+}
+
+.contact-box p{
+    font-size: 0.8rem;
+    font-weight:400;
+    
+}

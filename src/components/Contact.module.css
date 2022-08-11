@@ -26,11 +26,14 @@
     padding: 5rem 9rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 5rem;
 }
 .first-column{
-    background-color: orangered;
     justify-self: end;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
 }
 .second-column{
     background-color: brown;
