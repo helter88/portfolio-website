@@ -1,3 +1,33 @@
 .contact-form-box{
     width: 25rem;
 }
+.message{
+    width: 100%;
+    height: 10rem;
+    background-color: #06283d;
+    border-radius: 0.5rem;
+}
+
+.message textarea{
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    color: inherit;
+    font-size: 0.8rem;
+    font-weight:400;
+    padding: 1rem;
+    outline: none;
+}
+
+.message textarea::-webkit-scrollbar {
+    display: none;
+  }
+
+  .message textarea::placeholder{
+    font-family: inherit;
+    color: #a9c3cc;
+    font-size: 1rem;
+  }
