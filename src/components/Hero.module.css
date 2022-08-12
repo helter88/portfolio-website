@@ -14,6 +14,7 @@
 .hero-content-main{
     width: 100%;
     margin-bottom: 3rem;
+    
 }
 
 .heading-primary{
@@ -21,6 +22,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
+   
 
 }
 .heading-primary-main{
@@ -30,6 +32,7 @@
     margin-left: 0.5rem;
     animation-name: moveInLeft;
     animation-duration: 2s;
+    
 }
 .heading-primary-sub{
     font-size: 2rem;

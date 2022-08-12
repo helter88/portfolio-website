@@ -3,10 +3,15 @@ import logo from './../img/Logo-AH.png';
 import styles from './Header.module.css';
 
 const Header = () => {
+
+  const toogleHome= () =>{
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }
+
   return (
     <div className={styles.header}>
         <div className={styles['image-container']}>
-          <img src={logo} alt='logo' className={styles.logo} />  
+          <img src={logo} alt='logo' className={styles.logo} onClick={toogleHome} />  
         </div>
       
       <div className={styles['nav-container']}>
