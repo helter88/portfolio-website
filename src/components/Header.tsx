@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './../img/Logo-AH.png';
 import styles from './Header.module.css';
+import {Link} from 'react-scroll';
 
 const Header = () => {
 
@@ -16,11 +17,11 @@ const Header = () => {
       
       <div className={styles['nav-container']}>
         <ul>
-        <li><a className={styles['top-nav-bar']}>Home</a></li>
-        <li><a className={styles['top-nav-bar']}>Portfolio</a></li>
-        <li><a className={styles['top-nav-bar']}>Skills</a></li>
-        <li><a className={styles['top-nav-bar']}>Resume</a></li>
-        <li><a className={styles['top-nav-bar']}>Contact</a></li>
+        <li><Link activeClass={styles.active} to="hero" spy={true} smooth={true} className={styles['top-nav-bar']}>Home</Link></li>
+        <li><Link activeClass={styles.active} to="portfolio" spy={true} offset={-50} smooth={true} className={styles['top-nav-bar']}>Portfolio</Link></li>
+        <li><Link activeClass={styles.active} to="skills" spy={true} offset={-155} smooth={true} className={styles['top-nav-bar']}>Skills</Link></li>
+        <li><Link activeClass={styles.active} to="resume" spy={true} offset={-320} smooth={true} className={styles['top-nav-bar']}>Resume</Link></li>
+        <li><Link activeClass={styles.active} to="contact" spy={true} offset={-50} smooth={true} className={styles['top-nav-bar']}>Contact</Link></li>
         </ul>
         
       </div>

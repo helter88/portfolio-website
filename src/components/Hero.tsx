@@ -6,7 +6,7 @@ import {ReactComponent as BottomArrows} from './../img/double-arrow-bottom-icon.
 
 const Header: React.FC = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id='hero'>
         <div className={styles['hero-content-main']}>
             <h1 className={styles['heading-primary']}>
             <span className={styles['heading-primary-main']}>ARTUR HELTA</span>

@@ -4,7 +4,7 @@ import Slider from './Slider';
 
 const Skills = () => {
   return (
-    <section className={styles.skills}>
+    <section className={styles.skills} id ='skills'>
         <div className={styles['text-box']} >
           <h1> SKILLS</h1>  
         </div>

@@ -3,7 +3,7 @@ import NavigationButton from './buttons/NavigationButton'
 import styles from './Resume.module.css'
 const Resume = () => {
   return (
-    <section className={styles.resume}>
+    <section className={styles.resume} id='resume'>
       <div className={styles['text-box']}>
       <h2 className={styles['heading-secondary']}>RESUME</h2>
       <p className={styles.description}>In order to get more information about me:</p>

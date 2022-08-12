@@ -8,7 +8,7 @@ const PortfolioList = PortfolioCardData.map(proj => <PortfolioCard key={proj.tit
 
 const Portfolio = () => {
   return (
-    <section className={styles.portfolio}>
+    <section className={styles.portfolio} id='portfolio'>
         <div className={styles['text-box']}><h2 className={styles['heading-secondary']}>PORTFOLIO</h2></div>
         <div className={styles['card-container']}>
             {PortfolioList}

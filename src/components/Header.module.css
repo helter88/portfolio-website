@@ -41,6 +41,9 @@ ul {
     animation: underline 0.5s;
     border-bottom: 2px solid #1e9bff;
 }
+.top-nav-bar.active{
+    border-bottom: 2px solid #1e9bff;
+}
 
 @keyframes underline{
     0% {
