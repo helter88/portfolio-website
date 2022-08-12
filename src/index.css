@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+  width: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #007F81;
+  border-radius: 10vw;
+}
+
+::-webkit-scrollbar-track{
+  background: linear-gradient(#005268,#06283d )
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
