@@ -10,7 +10,7 @@ const ContactFormRow: React.FC<ContactFormRowType> = ({name, id}) => {
   return (
     <div className={styles.container}>
         <label htmlFor={id} >{name}</label>
-        <input type='text'  id={id}/>
+        <input type='text' name={name}  id={id}/>
     </div>
   )
 }

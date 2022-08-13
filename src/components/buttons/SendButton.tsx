@@ -9,14 +9,14 @@ interface SendButtonType{
 const SendButton: React.FC<SendButtonType> = ({text}) => {
   return (
     <>
-        <a className={styles.button}>
+        <button className={styles.button} type='submit'>
             <div className={styles['text-button']}>
                 {text}
             </div>
             <div className={styles['icon-container']}>
                 <Send fill='#D3F4FF'width='100%'/>
             </div>
-        </a>
+        </button>
     </>
       
   )

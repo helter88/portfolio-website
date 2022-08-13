@@ -16,7 +16,6 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools,
 
   // poniższe chciałem wstawić ale nie działa
   const Logo = icon;
-  console.log(typeof Logo);
 
   return (
     <div className={styles.card}>

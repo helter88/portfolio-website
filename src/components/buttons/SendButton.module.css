@@ -1,6 +1,7 @@
 .button{
     padding: 2rem;
     text-decoration: none;
+    color: #D3F4FF;
     background-color: rgba(0, 101, 103, 0.765);
     border-radius: 4rem;
     font-size: 1.2rem;
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-width: 0;
 }
 .button:hover{
     transform:translateY(-0.2rem);
