@@ -9,12 +9,12 @@ const ContactForm = () => {
     const form = useRef<HTMLFormElement>(null);
     const [clicked, setClicked] = useState(false);
 
-    const sendEmail = (e:any) => {
+    const sendEmail = (e: React.FormEvent) => {
         e.preventDefault();
-        if (!form.current){
+        if (!form.current) {
             return;
         }
-    
+
         // emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`, `${process.env.REACT_APP_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_PUBLIC_KEY}`)
         //   .then((result) => {
         //       console.log(result.text);
@@ -24,33 +24,33 @@ const ContactForm = () => {
 
         form.current?.reset();
         setClicked(true);
-      };
-      if(clicked) return <AfterSendForm />
-  return (
-    <form ref={form} onSubmit={sendEmail} className={styles['contact-form-box']}>
-        <div className={styles['contact-form-row-container']}>
-            <ContactFormRow name='Full Name' id='fullName' />
+    };
+    if (clicked) return <AfterSendForm />
+    return (
+        <form ref={form} onSubmit={sendEmail} className={styles['contact-form-box']}>
+            <div className={styles['contact-form-row-container']}>
+                <ContactFormRow name='Full Name' id='fullName' />
 
-        </div>
-        <div className={styles['contact-form-row-container']}>
-            <ContactFormRow name='Subject' id='subject' />
+            </div>
+            <div className={styles['contact-form-row-container']}>
+                <ContactFormRow name='Subject' id='subject' />
 
-        </div>
-        <div className={styles['contact-form-row-container']}>
-            <ContactFormRow name='Email' id='email' />
+            </div>
+            <div className={styles['contact-form-row-container']}>
+                <ContactFormRow name='Email' id='email' />
 
 
-        </div>
-        <div className={styles.message}>
-            <textarea id='message' placeholder="Write Message" name='message' />
-        </div>
-        <div className={styles['button-container']}>
-            <SendButton text='Send' />
-        </div>
+            </div>
+            <div className={styles.message}>
+                <textarea id='message' placeholder="Write Message" name='message' />
+            </div>
+            <div className={styles['button-container']}>
+                <SendButton text='Send' />
+            </div>
 
-      
-    </form>
-  )
+
+        </form>
+    )
 }
 
 export default ContactForm
