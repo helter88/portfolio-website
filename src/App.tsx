@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import DisplayCV from './components/DisplayCV';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         </div>
       } />
       <Route path='/cv' element={<DisplayCV />} />
+      <Route path='*' element={<NotFound />} />
+
       
     </Routes>
    
