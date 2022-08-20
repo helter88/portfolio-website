@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './PortfolioCard.module.css';
 import { ReactComponent as Github} from './../../img/card-icons/github-icon.svg';
 
-import {Globe, Invoice, BloodPressure, RegisterForm, ToDoList, GetData} from './PortfolioCardIcons'
+import Icon from './Icon';
 
 interface PortfolioCardProps {
   title: string;
@@ -14,14 +14,13 @@ interface PortfolioCardProps {
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, icon}) => {
 
-  // poniższe chciałem wstawić ale nie działa
-  const Logo = icon;
+
 
   return (
     <div className={styles.card}>
       <div className={styles['logo-box']}>
         <div className={styles['logo-dimentions']}>
-          <Globe fill="#D3F4FF" width='100%'/>
+          <Icon type={icon}/>
         </div>
         
       </div>

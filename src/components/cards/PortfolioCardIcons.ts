@@ -4,5 +4,24 @@ import { ReactComponent as BloodPressure } from './../../img/card-icons/BloodPre
 import { ReactComponent as RegisterForm } from './../../img/card-icons/RegisterForm-icon.svg';
 import { ReactComponent as ToDoList } from './../../img/card-icons/ToDoList-icon.svg';
 import { ReactComponent as GetData } from './../../img/card-icons/ToDoList-icon.svg';
+import { ReactComponentElement } from 'react';
 
-export {Globe, Invoice, BloodPressure, RegisterForm, ToDoList, GetData};
+export enum IconName {
+    Globe = 'Globe',
+    Invoice = 'Invoice',
+    BloodPressure = 'BloodPressure',
+    RegisterForm = 'RegistrationForm',
+    ToDoList = 'ToDoList',
+    GetData = 'GetData'
+}
+
+export const icons = {
+    Globe,
+    Invoice,
+    BloodPressure,
+    RegisterForm,
+    ToDoList,
+    GetData
+}
+
+// export {Globe, Invoice, BloodPressure, RegisterForm, ToDoList, GetData};
