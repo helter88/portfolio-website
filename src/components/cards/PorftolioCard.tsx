@@ -2,26 +2,26 @@ import React from 'react'
 import styles from './PortfolioCard.module.css';
 import { ReactComponent as Github} from './../../img/card-icons/github-icon.svg';
 
-import {Globe, Invoice, BloodPressure, RegisterForm, ToDoList, GetData} from './PortfolioCardIcons'
+import icons, {IconsType} from './PortfolioCardIcons'
 
-interface PortfolioCardProps {
+export interface PortfolioCardProps {
   title: string;
-  icon: string;
+  logo: keyof IconsType;
   description: string;
   tools: string[];
 
 }
 
-const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, icon}) => {
+const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, logo}) => {
 
   // poniższe chciałem wstawić ale nie działa
-  const Logo = icon;
+  const Logo = icons[logo];
 
   return (
     <div className={styles.card}>
       <div className={styles['logo-box']}>
         <div className={styles['logo-dimentions']}>
-          <Globe fill="#D3F4FF" width='100%'/>
+          <Logo fill="#D3F4FF" width='100%'/>
         </div>
         
       </div>

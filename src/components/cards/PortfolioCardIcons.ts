@@ -5,4 +5,23 @@ import { ReactComponent as RegisterForm } from './../../img/card-icons/RegisterF
 import { ReactComponent as ToDoList } from './../../img/card-icons/ToDoList-icon.svg';
 import { ReactComponent as GetData } from './../../img/card-icons/ToDoList-icon.svg';
 
-export {Globe, Invoice, BloodPressure, RegisterForm, ToDoList, GetData};
+export interface IconsType {
+    Globe: typeof Globe,
+    Invoice: typeof Invoice,
+    BloodPressure: typeof BloodPressure,
+    RegisterForm: typeof RegisterForm,
+    ToDoList: typeof ToDoList,
+    GetData: typeof GetData
+}
+
+
+const icons: IconsType ={
+    Globe, 
+    Invoice, 
+    BloodPressure, 
+    RegisterForm, 
+    ToDoList, 
+    GetData
+}
+
+export default icons;

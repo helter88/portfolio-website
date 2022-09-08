@@ -1,5 +1,6 @@
+import {PortfolioCardProps} from './components/cards/PorftolioCard';
 
-export const PortfolioCardData = [
+export const PortfolioCardData: PortfolioCardProps[] = [
     {
         title: 'Portfolio Website',
         logo: 'Globe',
