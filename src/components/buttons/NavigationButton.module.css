@@ -11,6 +11,7 @@
     transition: 0.2s;
     cursor: pointer;
     position: relative;
+    border-bottom: 2px solid transparent;
 
 }
 .nav-btn:hover{
