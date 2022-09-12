@@ -11,7 +11,25 @@ import 'swiper/css/autoplay';
 // import required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
 import { ReactComponent as Html} from './../img/skills-icons/html-icon.svg';
-const Slider = () => {
+import skillLogos from "./SliderLogos";
+
+const logoGroup = Object.keys(skillLogos).map(key => {
+  let Logo = skillLogos[key];
+  return(
+     <SwiperSlide className={styles.slide}>
+    <div className={'icon-container'}>
+        <div className={styles['icon-box']}><Logo width='100%'/></div>
+          <p className={styles['icon-description']}>HTML</p>  
+    </div>
+            
+  </SwiperSlide>
+  )
+ 
+})
+
+
+const Slider: React.FC = () => {
+  
   return (
     <Swiper
         navigation={true}
