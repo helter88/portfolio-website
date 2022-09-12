@@ -14,14 +14,13 @@ export interface PortfolioCardProps {
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, logo}) => {
 
-  // poniższe chciałem wstawić ale nie działa
   const Logo = icons[logo];
 
   return (
     <div className={styles.card}>
       <div className={styles['logo-box']}>
         <div className={styles['logo-dimentions']}>
-          <Logo fill="#D3F4FF" width='100%'/>
+          <Logo className={styles.logo}/>
         </div>
         
       </div>

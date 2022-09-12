@@ -21,8 +21,8 @@
     justify-content: center;
 }
 .logo-dimentions{
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
 }
 .tech-list-box{
     padding: 1.5rem .2rem;
@@ -51,7 +51,7 @@
 .github-box{
     transition: all .3s;
     position: absolute;
-    bottom: 2rem;
+    bottom: 1.5rem;
     left: 45%;
 }
 .github-box:hover{
@@ -60,4 +60,8 @@
 .github-dimentions{
     width: 2rem;
     height: 2rem;
+}
+.logo {
+    width: 100%;
+    height: 100%;
 }
