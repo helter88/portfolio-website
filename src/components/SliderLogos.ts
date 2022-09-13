@@ -8,7 +8,7 @@ import { ReactComponent as Typescript} from './../img/skills-icons/typescript-ic
 import { ReactComponent as Git} from './../img/skills-icons/git-icon.svg';
 import { ReactComponent as VScode} from './../img/skills-icons/VScode-icon.svg';
 
-interface skillLogosType {
+export interface skillLogosType {
     Html: typeof Html,
     Css: typeof Css,
     Js: typeof Js,
