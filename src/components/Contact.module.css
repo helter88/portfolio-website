@@ -39,3 +39,8 @@
 .second-column{
     justify-self: start;
 }
+
+.icon{
+    width: 100%;
+    height: 100%;
+}
