@@ -8,11 +8,8 @@
     justify-content: center;
     align-items: center;
 }
-.icon-container{
-    display: flex;
-    
-}
 .icon-box{
+    margin: 0 auto;
     height: 4rem;
     width: 4rem;
 }
