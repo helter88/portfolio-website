@@ -11,7 +11,25 @@ import 'swiper/css/autoplay';
 // import required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
 import { ReactComponent as Html} from './../img/skills-icons/html-icon.svg';
-const Slider = () => {
+import skillLogos from "./SliderLogos";
+
+const logoGroup = skillLogos.map(({title, url}) => {
+  console.log(url);
+  return(
+     <SwiperSlide className={styles.slide}>
+    <div className={'icon-container'}>
+        <div className={styles['icon-box']}><img src={url} className={styles.icon} alt={title}/></div>
+          <p className={styles['icon-description']}>{title}</p>  
+    </div>
+            
+  </SwiperSlide>
+  )
+ 
+})
+
+
+const Slider: React.FC = () => {
+  
   return (
     <Swiper
         navigation={true}
@@ -24,21 +42,8 @@ const Slider = () => {
         modules={[Navigation,Pagination, Autoplay]}
         className={styles.swiper}
       >
-         <SwiperSlide className={styles.slide}>
-            <div className={'icon-container'}>
-              <div className={styles['icon-box']}><Html width='100%'/></div>
-              <p className={styles['icon-description']}>HTML</p>  
-            </div>
+         {logoGroup}
             
-         </SwiperSlide>
-        <SwiperSlide className={styles.slide}>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
   )
 }

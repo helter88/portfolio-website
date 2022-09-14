@@ -7,7 +7,7 @@ const DisplayCV = () => {
   return (
     <>
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.14.305/build/pdf.worker.min.js">
-        <Viewer fileUrl='./../example.pdf'/>;
+        <Viewer fileUrl='./example.pdf'/>;
        </Worker>
     </>
   )
