@@ -1,11 +1,11 @@
-import React from 'react'
-import NavigationButton from './buttons/NavigationButton'
-import styles from './Resume.module.css'
-import {Element} from 'react-scroll'
+import NavigationButton from './buttons/NavigationButton';
+import styles from './Resume.module.css';
+import { useNavigate } from "react-router-dom";
 
 const Resume = () => {
+  const navigate = useNavigate()
 
-  const displayCV = () => console.log('click from cv')
+  const displayCV = () => navigate('/cv');
 
   return (
     <section className={styles.resume} id='resume'>
