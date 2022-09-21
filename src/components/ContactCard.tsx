@@ -32,7 +32,7 @@ const ContactCard: React.FC<CardType> = ({title, description, icon, clickHandler
   return (
     
     <div className={styles['contact-box']}>
-        <div className={styles['contact-icon-box']}>
+        <div className={styles['contact-icon-box']} onClick={clickHandler}>
             <Icon fill='#007F81' width="100%" height="100%"/>
         </div>
         <div className={styles['contact-text-box']}>

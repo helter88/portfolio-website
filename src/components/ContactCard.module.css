@@ -7,7 +7,7 @@
     height: 2.5rem;
     width: 2.5rem;
     display: flex;
-
+    cursor: pointer;
 }
 
 .contact-box h6{

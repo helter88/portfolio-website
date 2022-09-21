@@ -8,7 +8,7 @@ import {Element} from 'react-scroll'
 const Contact = () => {
 
   const emailClick= () => {
-    window.location.href = "mailto:xyz@yourapplicationdomain.com";
+    window.location.href = "mailto:arturhelta@onet.pl";
   };
   const LinkedInClick= () => {
     window.location.href = 'https://pl.linkedin.com/in/arturhelta';
