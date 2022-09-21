@@ -15,6 +15,7 @@ interface CardType{
   title: string;
   description: string;
   icon: keyof IconsType;
+  clickHandler?: () => void;
 }
 
 const iconContainer: IconsType = {
@@ -26,7 +27,7 @@ const iconContainer: IconsType = {
 }
 
 
-const ContactCard: React.FC<CardType> = ({title, description, icon}) => {
+const ContactCard: React.FC<CardType> = ({title, description, icon, clickHandler}) => {
   const Icon = iconContainer[icon];
   return (
     
@@ -36,7 +37,7 @@ const ContactCard: React.FC<CardType> = ({title, description, icon}) => {
         </div>
         <div className={styles['contact-text-box']}>
             <h6>{title}</h6>
-            <p>{description}</p>
+            <a onClick={clickHandler}>{description}</a>
         </div>
         
     </div>

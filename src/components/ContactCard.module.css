@@ -16,9 +16,10 @@
     margin-bottom: 0.4rem;
 }
 
-.contact-box p{
+.contact-box a{
     font-size: 0.8rem;
     font-weight:400;
     color: #a9c3cc;
+    cursor: pointer;
     
 }
