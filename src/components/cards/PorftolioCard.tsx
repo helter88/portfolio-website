@@ -31,7 +31,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools,
         </div>
         <div className={styles['github-box']}>
           <div className={styles['github-dimentions']}>
-          <Github  width='100%' />
+          <Github aria-label='Link to GitHub' width='100%' />
         </div>
         </div>
         

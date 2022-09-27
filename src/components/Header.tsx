@@ -18,10 +18,10 @@ const Header = () => {
       <div className={styles['nav-container']}>
         <ul>
         <li><Link activeClass={styles.active} to="hero" spy={true} smooth={true} className={styles['top-nav-bar']}>Home</Link></li>
-        <li><Link activeClass={styles.active} to="portfolio" spy={true} offset={-50} smooth={true} className={styles['top-nav-bar']}>Portfolio</Link></li>
-        <li><Link activeClass={styles.active} to="skills" spy={true} offset={-155} smooth={true} className={styles['top-nav-bar']}>Skills</Link></li>
-        <li><Link activeClass={styles.active} to="resume" spy={true} offset={-320} smooth={true} className={styles['top-nav-bar']}>Resume</Link></li>
-        <li><Link activeClass={styles.active} to="contact" spy={true} offset={-50} smooth={true} className={styles['top-nav-bar']}>Contact</Link></li>
+        <li><Link activeClass={styles.active} to="portfolio" spy={true} smooth={true} className={styles['top-nav-bar']}>Portfolio</Link></li>
+        <li><Link activeClass={styles.active} to="skills" spy={true} smooth={true} className={styles['top-nav-bar']}>Skills</Link></li>
+        <li><Link activeClass={styles.active} to="resume" spy={true} smooth={true} className={styles['top-nav-bar']}>Resume</Link></li>
+        <li><Link activeClass={styles.active} to="contact" spy={true} smooth={true} className={styles['top-nav-bar']}>Contact</Link></li>
         </ul>
         
       </div>

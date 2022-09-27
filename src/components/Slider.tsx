@@ -14,9 +14,9 @@ import { ReactComponent as Html} from './../img/skills-icons/html-icon.svg';
 import skillLogos from "./SliderLogos";
 
 const logoGroup = skillLogos.map(({title, url}) => {
-  console.log(url);
+
   return(
-     <SwiperSlide className={styles.slide}>
+     <SwiperSlide key={title} className={styles.slide}>
     <div className={'icon-container'}>
         <div className={styles['icon-box']}><img src={url} className={styles.icon} alt={title}/></div>
           <p className={styles['icon-description']}>{title}</p>  
