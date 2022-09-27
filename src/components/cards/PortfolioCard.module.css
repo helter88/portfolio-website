@@ -25,16 +25,20 @@
     height: 5rem;
 }
 .tech-list-box{
-    padding: 1.5rem .2rem;
+    padding: 0 .2rem;
     font-weight: 300;
     display: flex;
     justify-content: flex-start;
     gap: 0.6rem;
     font-size: 1rem;
+    flex-wrap: wrap;
 }
 .tech-list-box p {
-    max-width: 4rem;
     color: #FAB1D4;
+    padding: .2em .5em .3em;
+    margin: 0 .2em;
+    border: solid 1px;
+    border-radius: 1em;
 }
 
 .title{
