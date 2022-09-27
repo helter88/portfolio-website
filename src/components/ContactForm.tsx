@@ -42,7 +42,7 @@ const ContactForm = () => {
 
             </div>
             <div className={styles.message}>
-                <textarea id='message' placeholder="Write Message" name='message' />
+                <textarea id='message' placeholder="Write Message" name='message' required />
             </div>
             <div className={styles['button-container']}>
                 <SendButton text='Send' />
