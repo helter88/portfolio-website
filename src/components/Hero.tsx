@@ -6,15 +6,23 @@ import Scroll from 'react-scroll';
 
 
 
-const Header: React.FC = () => {
+const Hero: React.FC = () => {
 
-  const scrollToContact = () =>{
-    let scroller = Scroll.scroller;
+  let scroller = Scroll.scroller;
+  const onScrollToContact = () =>{
     scroller.scrollTo('contact', {
       duration: 1000,
       delay: 100,
       smooth: true,
       offset: -50,
+    })
+  };
+
+  const onSrcollDown = () =>{
+    scroller.scrollTo('portfolio', {
+      duration: 1000,
+      delay: 100,
+      smooth: true,
     })
   };
   
@@ -28,10 +36,10 @@ const Header: React.FC = () => {
         </h1>
         
         </div>
-          <NavigationButton text="Get in touch" clickHandler={scrollToContact} />
-        <div className={styles['arrow-container']}>
+          <NavigationButton text="Get in touch" clickHandler={onScrollToContact} />
+        <div className={styles['arrow-container']} onClick={onSrcollDown}>
           <div className={styles['arrow-dimentions']}>
-          <BottomArrows fill='#D3F4FF'/>
+          <BottomArrows arial-label='scroll down' fill='#D3F4FF' />
         
         </div>
         </div>
@@ -41,4 +49,4 @@ const Header: React.FC = () => {
   )
 }
 
-export default Header
+export default Hero;
