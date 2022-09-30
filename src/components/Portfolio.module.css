@@ -18,8 +18,23 @@
 }
 
 .card-container{
-    padding: 10rem 9rem;
+    padding: 10rem 6rem;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 3rem;
+}
+/* Responsive */
+@media (max-width: 1000px) {
+
+    .heading-secondary{
+        font-size: 3rem;
+    }
+    .card-container{
+        padding: 8rem 6rem;
+    }
+
+
+
+
 }

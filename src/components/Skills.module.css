@@ -21,3 +21,35 @@
     height: 18rem;
     margin-bottom: 5rem;
 }
+/* Resposive */
+
+
+@media (max-width: 1400px) {
+    .slider-container{
+        padding: 2rem 10rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .text-box{
+        padding: 2rem;
+    }
+
+    .text-box h1{
+        font-size: 3rem;
+    }
+
+    .slider-container{
+        padding: 2rem 4rem;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .slider-container{
+        padding: 2rem 2rem;
+    }
+
+}

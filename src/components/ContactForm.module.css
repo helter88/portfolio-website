@@ -44,3 +44,18 @@ contact-form-row-container{
     height : 2rem;
     display: flex;
   }
+
+  /* Responsive */
+
+  @media (max-width: 800px) {
+
+    .contact-form-box{
+      width: 18rem;
+      height: 8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      
+  }
+
+}

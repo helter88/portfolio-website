@@ -94,3 +94,16 @@
         transform: translateY(-1rem);
     }
 }
+/* Responsive */
+@media (max-width: 1000px) {
+
+    .heading-primary-main{
+        font-size: 3rem;
+        letter-spacing: 1rem;
+    }
+
+    .heading-primary-sub{
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+    }
+}

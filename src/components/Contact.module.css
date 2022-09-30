@@ -44,3 +44,32 @@
     width: 100%;
     height: 100%;
 }
+
+/* Responsive */
+@media (max-width: 1000px) {
+
+    .contact{
+        padding-bottom: 2rem;
+    }
+    .text-box h2 {
+        font-size: 3rem;
+    }
+
+    .contact-container{
+        padding-left: 3rem;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .contact-container{
+        gap: 3rem;
+    }
+
+    .first-column{
+        padding-top: 1.5rem;;
+        gap: 2rem;
+    
+    }
+}

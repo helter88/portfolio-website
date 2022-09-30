@@ -44,3 +44,10 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity:0;
  }
+
+ @media (max-width: 1000px) {
+
+   .nav-btn{
+      padding: 1rem 4rem;
+   }
+}
