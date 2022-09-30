@@ -20,7 +20,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools,
     <div className={styles.card}>
       <div className={styles['logo-box']}>
         <div className={styles['logo-dimentions']}>
-          <Logo className={styles.logo}/>
+          <Logo aria-label={`${logo} icon`} className={styles.logo}/>
         </div>
         
       </div>
