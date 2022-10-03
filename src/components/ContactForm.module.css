@@ -59,3 +59,11 @@ contact-form-row-container{
   }
 
 }
+
+@media (max-width: 650px) {
+  .contact-form-box{
+    width: 100%;
+    height: 100%;
+}
+
+}

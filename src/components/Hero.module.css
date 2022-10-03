@@ -107,3 +107,30 @@
         letter-spacing: 0.5rem;
     }
 }
+
+@media (max-width: 650px) {
+
+    .heading-primary-main{
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .heading-primary-sub{
+        font-size: 1rem;
+        letter-spacing: 0.4rem;
+    }
+
+}
+@media (max-width: 423px){
+
+    .heading-primary {
+        padding: 0 1rem;
+    }
+
+    .heading-primary-sub{
+        padding-top: 1rem;
+        width: 10rem;
+    }
+       
+    
+}

@@ -32,3 +32,12 @@
 
 
 }
+
+@media (max-width: 800px) {
+
+    .resume{
+        background-color: #D3F4FF;
+        padding: 6rem 0.8rem;
+    }
+
+}

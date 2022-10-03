@@ -25,3 +25,20 @@
 }
 
  /* Responsive */
+ @media (max-width: 650px) {
+
+    .contact-icon-box{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .contact-box h6{
+        font-size: 1rem;
+        font-weight:600;
+        margin-bottom: 0.4rem;
+    }
+
+    .contact-box{
+        width: 9.5rem;
+    }
+}
