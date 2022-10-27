@@ -10,6 +10,9 @@ import Git from '../../img/skills-icons/git-icon.svg';
 import VScode from '../../img/skills-icons/VScode-icon.svg';
 import GitHub from '../../img/skills-icons/github-icon.png';
 import npm from '../../img/skills-icons/npm-logo.png';
+import ReactQuery from '../../img/skills-icons/react-query-icon.svg';
+import ReactRouter from '../../img/skills-icons/react-router-icon.svg';
+import Formik from '../../img/skills-icons/formik-icon.png';
 
 interface SkillIcon {
     url: string;
@@ -21,6 +24,8 @@ const skillLogos: SkillIcon[] = [
     {title: 'CSS', url: Css},
     {title: 'JavaScript', url: Js},
     {title: 'React', url: React },
+    {title: 'React Query', url: ReactQuery },
+    {title: 'React Router', url: ReactRouter },
     {title: 'Redux', url: Redux },
     {title: 'TypeScript', url: Typescript},
     {title: 'Tailwind CSS', url: Tailwind },
@@ -29,6 +34,8 @@ const skillLogos: SkillIcon[] = [
     {title: 'VScode', url: VScode},
     {title: 'GitHub', url: GitHub },
     {title: 'npm', url: npm },
+    {title: 'Formik', url: Formik },
+    
     
 
 ]

@@ -10,7 +10,6 @@ import 'swiper/css/autoplay';
 
 // import required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
-import { ReactComponent as Html} from './../img/skills-icons/html-icon.svg';
 import skillLogos from "./SliderLogos";
 
 const logoGroup = skillLogos.map(({title, url}) => {
