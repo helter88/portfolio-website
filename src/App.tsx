@@ -1,14 +1,14 @@
 import './App.css';
-import Hero from './components/Hero';
-import Header from './components/Header';
-import Portfolio from './components/Portfolio';
-import Skills from './components/Skills';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Hero from './components/hero/Hero';
+import Header from './components/header/Header';
+import Portfolio from './components/portfolio/Portfolio';
+import Skills from './components/skills/Skills';
+import Resume from './components/resume/Resume';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import { Route, Routes } from 'react-router-dom';
-import DisplayCV from './components/DisplayCV';
-import NotFound from './components/NotFound';
+import DisplayCV from './components/pages/DisplayCV';
+import NotFound from './components/pages/NotFound';
 
 function App() {
   return (

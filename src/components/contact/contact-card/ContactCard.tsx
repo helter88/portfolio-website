@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './ContactCard.module.css';
-import {ReactComponent as Email} from './../img/contact-icons/mail-icon.svg'
-import {ReactComponent as LinkedIn} from './../img/contact-icons/linkedin-icon.svg'
-import {ReactComponent as Phone} from './../img/contact-icons/phone-icon.svg'
-import {ReactComponent as Github} from './../img/contact-icons/github-icon.svg'
+import {ReactComponent as Email} from '../../../img/contact-icons/mail-icon.svg'
+import {ReactComponent as LinkedIn} from '../../../img/contact-icons/linkedin-icon.svg'
+import {ReactComponent as Phone} from '../../../img/contact-icons/phone-icon.svg'
+import {ReactComponent as Github} from '../../../img/contact-icons/github-icon.svg'
 
 interface IconsType {
   Email: typeof Email,

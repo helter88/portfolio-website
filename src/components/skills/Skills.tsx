@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css';
-import Slider from './Slider';
+import Slider from '../slider/Slider';
 
 const Skills = () => {
   return (

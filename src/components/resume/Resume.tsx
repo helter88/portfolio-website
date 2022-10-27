@@ -1,4 +1,4 @@
-import NavigationButton from './buttons/NavigationButton';
+import NavigationButton from '../buttons/NavigationButton';
 import styles from './Resume.module.css';
 import { useNavigate } from "react-router-dom";
 

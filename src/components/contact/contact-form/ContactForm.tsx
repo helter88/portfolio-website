@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import SendButton from './buttons/SendButton';
+import SendButton from '../../buttons/SendButton';
 import styles from './ContactForm.module.css';
 import ContactFormRow from './ContactFormRow';
 import emailjs from '@emailjs/browser';

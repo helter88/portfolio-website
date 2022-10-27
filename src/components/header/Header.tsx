@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import logo from './../img/Logo-AH.png';
+import logo from '../../img/Logo-AH.png';
 import styles from './Header.module.css';
 import {Link} from 'react-scroll';
-import { ReactComponent as Hamburger } from './../img/hamburger-icon.svg';
+import { ReactComponent as Hamburger } from '../../img/hamburger-icon.svg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

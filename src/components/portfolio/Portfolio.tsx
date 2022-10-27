@@ -1,7 +1,7 @@
 import React from 'react'
-import PortfolioCard from './cards/PorftolioCard'
+import PortfolioCard from '../cards/PorftolioCard'
 import styles from './Portfolio.module.css';
-import { PortfolioCardData } from '../PortfolioCardData';
+import { PortfolioCardData } from '../../PortfolioCardData';
 import {Element} from 'react-scroll'
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import NavigationButton from './buttons/NavigationButton';
+import NavigationButton from '../buttons/NavigationButton';
 import styles from './Hero.module.css';
-import {ReactComponent as BottomArrows} from './../img/double-arrow-bottom-icon.svg';
+import {ReactComponent as BottomArrows} from '../../img/double-arrow-bottom-icon.svg';
 import Scroll from 'react-scroll';
 
 
