@@ -12,8 +12,11 @@ import 'swiper/css/autoplay';
 import { Navigation, Pagination, Autoplay } from "swiper";
 import skillLogos from "./SliderLogos";
 
-const logoGroup = skillLogos.map(({title, url}) => {
+import useWindowWidth from "../../hooks/useWindowWidth";
+import {numberSlides, spaceBetweenValue,
+  implementNavigation, implementPagination} from "../../utils/swiper-responsive-options"
 
+const logoGroup = skillLogos.map(({title, url}) => {
   return(
      <SwiperSlide key={title} className={styles.slide}>
     <div className={'icon-container'}>
@@ -28,16 +31,15 @@ const logoGroup = skillLogos.map(({title, url}) => {
 
 
 const Slider: React.FC = () => {
-  
+  const width = useWindowWidth();
+
   return (
     <Swiper
-        navigation={true}
+        navigation={implementNavigation(width)}
         autoplay={{delay: 800}}
-        slidesPerView={4}
-        spaceBetween={5}
-        pagination={{
-          clickable: true,
-        }}
+        slidesPerView={numberSlides(width)}
+        spaceBetween={spaceBetweenValue(width)}
+        pagination={implementPagination(width)}
         modules={[Navigation,Pagination, Autoplay]}
         className={styles.swiper}
       >
