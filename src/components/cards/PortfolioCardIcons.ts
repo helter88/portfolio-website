@@ -1,7 +1,7 @@
 import { ReactComponent as Globe } from './../../img/card-icons/internet-icon.svg';
 import { ReactComponent as RegisterForm } from './../../img/card-icons/RegisterForm-icon.svg';
 import { ReactComponent as ToDoList } from './../../img/card-icons/ToDoList-icon.svg';
-import { ReactComponent as GetData } from './../../img/card-icons/ToDoList-icon.svg';
+import { ReactComponent as GetData } from './../../img/card-icons/GetData-icon.svg';
 import { ReactComponent as Shop } from './../../img/card-icons/e-commerse-icon.svg';
 
 export interface IconsType {
