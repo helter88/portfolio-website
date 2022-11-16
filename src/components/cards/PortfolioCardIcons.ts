@@ -1,14 +1,12 @@
 import { ReactComponent as Globe } from './../../img/card-icons/internet-icon.svg';
-import { ReactComponent as Invoice } from './../../img/card-icons/invoice-icon.svg';
-import { ReactComponent as BloodPressure } from './../../img/card-icons/BloodPressure-icon.svg';
 import { ReactComponent as RegisterForm } from './../../img/card-icons/RegisterForm-icon.svg';
 import { ReactComponent as ToDoList } from './../../img/card-icons/ToDoList-icon.svg';
 import { ReactComponent as GetData } from './../../img/card-icons/ToDoList-icon.svg';
+import { ReactComponent as Shop } from './../../img/card-icons/e-commerse-icon.svg';
 
 export interface IconsType {
     Globe: typeof Globe,
-    Invoice: typeof Invoice,
-    BloodPressure: typeof BloodPressure,
+    Shop: typeof Shop,
     RegisterForm: typeof RegisterForm,
     ToDoList: typeof ToDoList,
     GetData: typeof GetData
@@ -17,8 +15,7 @@ export interface IconsType {
 
 const icons: IconsType ={
     Globe, 
-    Invoice, 
-    BloodPressure, 
+    Shop,
     RegisterForm, 
     ToDoList, 
     GetData

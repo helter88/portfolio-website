@@ -9,12 +9,17 @@ export interface PortfolioCardProps {
   logo: keyof IconsType;
   description: string;
   tools: string[];
+  githubLink: string;
 
 }
 
-const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, logo}) => {
+const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, logo, githubLink}) => {
 
   const Logo = icons[logo];
+
+  const onClickGithub = () => {
+    window.open(githubLink, '_blank', 'noopener,noreferrer')
+  }
 
   return (
     <div className={styles.card}>
@@ -29,7 +34,8 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools,
         <div className={styles['tech-list-box']}>
           {tools.map(tool => <p key={Math.random()}>{tool}</p>)}
         </div>
-        <div className={styles['github-box']}>
+        <div className={styles['github-box']}
+          onClick={onClickGithub}>
           <div className={styles['github-dimentions']}>
           <Github aria-label='Link to GitHub' width='100%' />
         </div>

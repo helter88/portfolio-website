@@ -7,7 +7,7 @@
     border-radius: 1rem;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
     width: 22rem;
-    height: 28rem;
+    height: 30rem;
     position: relative;
     transition: all 0.3s;
     cursor: pointer;
@@ -19,6 +19,7 @@
 .logo-box{
     display: flex;
     justify-content: center;
+    fill: #D3F4FF
 }
 .logo-dimentions{
     width: 5rem;
@@ -57,6 +58,7 @@
     position: absolute;
     bottom: 1.5rem;
     left: 45%;
+    padding-top: 1rem;
 }
 .github-box:hover{
     transform: scale(1.20);
