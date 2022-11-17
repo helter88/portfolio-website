@@ -10,17 +10,17 @@ export const PortfolioCardData: PortfolioCardProps[] = [
 
     },
     {
-        title: 'Joom clone e-commerce platform',
+        title: 'Joom Clone E-commerce Platform',
         logo: 'Shop',
         description: 'Based on external API with products. Implemented features like: searchbar with search pointing system, adding product to cart and more ... ',
-        tools: ['React', 'Typescript','Talwind' ],
+        tools: ['React', 'Typescript','Tailwind' ],
         githubLink: "https://github.com/helter88/joom_copy_e-commerce"
 
     },{
-        title: 'Register Form',
+        title: 'Register Form for Underline Start-up',
      logo: 'RegisterForm',
-     description: 'Write your e-mail and password in proper form, click button and send your data. Aplication was made to train custom hooks for validation logic in React',
-     tools: ['React', 'Typescript','Talwind' ],
+     description: 'Write your e-mail and password in proper form, click button and send your data. Register form was made for Underline start-up. There are used custom hooks for validation logic',
+     tools: ['React', 'Typescript','Tailwind' ],
      githubLink: "https://github.com/helter88/Registration-Form-React-Typescript"
      },{
         title: 'ToDoList with Redux Toolkit',
@@ -37,15 +37,7 @@ export const PortfolioCardData: PortfolioCardProps[] = [
         githubLink: "https://github.com/helter88/Simple-React-Typescript-Redux-ToDoList"  
      },
      {
-        title: 'Get data from API with Redux Toolkit',
-        logo: 'GetData',
-        description: 'This project was made to train getting, storing and displaying data from simple API using Redux Toolkit ',
-        tools: ['React', 'Typescript', 'Redux Toolkit' ],
-        githubLink: "https://github.com/helter88/react-tsc-redux-toolkit-API"
-
-     },
-     {
-      title: 'Get data from API with Redux',
+      title: 'Get Data From API with Redux',
       logo: 'GetData',
       description: 'This project was made to train getting, storing and displaying data from simple API using Redux',
       tools: ['React', 'Typescript', 'Redux Toolkit' ],
