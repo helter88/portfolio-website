@@ -5,8 +5,8 @@ import { PortfolioCardData } from '../../PortfolioCardData';
 import {Element} from 'react-scroll'
 
 
-const PortfolioList = PortfolioCardData.map(({title, logo, description, tools, githubLink}) =>
-   (<PortfolioCard {...{title, logo, description, tools, githubLink, key: title}}/>))
+const PortfolioList = PortfolioCardData.map(({title, logo, description, tools, githubLink, demoLink}) =>
+   (<PortfolioCard {...{title, logo, description, tools, githubLink, demoLink, key: title}}/>))
 
 const Portfolio = () => {
   return (

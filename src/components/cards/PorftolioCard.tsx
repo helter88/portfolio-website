@@ -10,19 +10,25 @@ export interface PortfolioCardProps {
   description: string;
   tools: string[];
   githubLink: string;
+  demoLink: string
 
 }
 
-const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, logo, githubLink}) => {
+const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools, logo, githubLink, demoLink}) => {
 
   const Logo = icons[logo];
 
-  const onClickGithub = () => {
+  const onHandleClickGithub = () => {
     window.open(githubLink, '_blank', 'noopener,noreferrer')
   }
 
+  const onHandleCardClick = () => {
+    window.open(demoLink, '_blank', 'noopener,noreferrer')
+  }
+
   return (
-    <div className={styles.card}>
+    <div className={styles.card}
+      onClick={onHandleCardClick}>
       <div className={styles['logo-box']}>
         <div className={styles['logo-dimentions']}>
           <Logo aria-label={`${logo} icon`} className={styles.logo}/>
@@ -35,7 +41,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({title, description, tools,
           {tools.map(tool => <p key={Math.random()}>{tool}</p>)}
         </div>
         <div className={styles['github-box']}
-          onClick={onClickGithub}>
+          onClick={onHandleClickGithub}>
           <div className={styles['github-dimentions']}>
           <Github aria-label='Link to GitHub' width='100%' />
         </div>
