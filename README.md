@@ -1,6 +1,6 @@
 # Portfolio website
 
-<img src="/readme_images/Joom_main.JPG" alt="project image">
+<img src="./readme_images/potfolio-main.JPG" alt="project image">
 
 > See demo live : [click here](https://artur-helta-portfolio.netlify.app 'click to open link')
 
