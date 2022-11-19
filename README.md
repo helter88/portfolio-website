@@ -1,8 +1,8 @@
-# Portfolio website 
+# Portfolio website
 
 <img src="/readme_images/Joom_main.JPG" alt="project image">
-<br />
-> See demo live :
+
+> See demo live : [click here](https://artur-helta-portfolio.netlify.app 'click to open link')
 
 ## Description
 
@@ -16,7 +16,7 @@ The website is fully responsive so you can watch it on both large computer and s
 
 - Fully responsive page
 - Clickable menu
-- Smooth scrolling to desire section 
+- Smooth scrolling to desire section
 - CSS animations
 - Cards with projects
 - Skills slider
@@ -25,10 +25,10 @@ The website is fully responsive so you can watch it on both large computer and s
 
 ## Built using
 
-  - React
-  - Typescript
-  - CSS Modules Stylesheet
-  - React Router v6
-  - React Custom Hooks
-  - [EmailJS](https://www.emailjs.com/ "see EmailJS website")
-  - [React PDF Viewer](https://react-pdf-viewer.dev/ "see React PDF Viewer website")
+- React
+- Typescript
+- CSS Modules Stylesheet
+- React Router v6
+- React Custom Hooks
+- [EmailJS](https://www.emailjs.com/ 'see EmailJS website')
+- [React PDF Viewer](https://react-pdf-viewer.dev/ 'see React PDF Viewer website')

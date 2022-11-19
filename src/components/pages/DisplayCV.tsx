@@ -15,7 +15,7 @@ const DisplayCV = () => {
   return (
     <>
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.14.305/build/pdf.worker.min.js">
-        <Viewer plugins={[defaultLayoutPluginInstance]} fileUrl='./example.pdf' defaultScale={scaleValue}/>;
+        <Viewer plugins={[defaultLayoutPluginInstance]} fileUrl='./The best AH CV.pdf' defaultScale={scaleValue}/>;
        </Worker>
     </>
   )
