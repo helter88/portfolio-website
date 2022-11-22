@@ -13,6 +13,7 @@ import npm from '../../img/skills-icons/npm-logo.png';
 import ReactQuery from '../../img/skills-icons/react-query-icon.svg';
 import ReactRouter from '../../img/skills-icons/react-router-icon.svg';
 import Formik from '../../img/skills-icons/formik-icon.png';
+import Webpack from '../../img/skills-icons/webpack-icon.svg';
 
 interface SkillIcon {
     url: string;
@@ -28,6 +29,7 @@ const skillLogos: SkillIcon[] = [
     {title: 'React Router', url: ReactRouter },
     {title: 'Redux', url: Redux },
     {title: 'TypeScript', url: Typescript},
+    {title: 'Webpack', url: Webpack},
     {title: 'Tailwind CSS', url: Tailwind },
     {title: 'BULMA', url: Bulma},
     {title: 'Git', url: Git },
