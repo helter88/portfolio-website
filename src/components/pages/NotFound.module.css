@@ -1,7 +1,7 @@
-.container{
-    max-width: 100vw;
-    height: 100vh;
-    min-height: 16rem;
+.container {
+  max-width: 100vw;
+  height: 100vh;
+  min-height: 16rem;
   background-image: linear-gradient(to right bottom, #06283d, #005268);
   display: flex;
   flex-direction: column;
@@ -9,14 +9,14 @@
   align-items: center;
 }
 
-.container h1{
-    font-size: 8rem;
-    font-weight: 700;
-    color: #007F81;
+.container h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #007f81;
 }
 
-.container p{
-    font-size: 3rem;
-    font-weight:400;
-    color: #a9c3cc;
+.container p {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #a9c3cc;
 }

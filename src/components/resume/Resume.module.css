@@ -1,43 +1,37 @@
-.resume{
-    background-color: #D3F4FF;
-    padding: 6rem;
+.resume {
+  background-color: #d3f4ff;
+  padding: 6rem;
 }
-.text-box{
-    text-align: center;
-    padding: 1rem;
+.text-box {
+  text-align: center;
+  padding: 1rem;
 }
 
-.heading-secondary{
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: inline-block;
-    background-image: linear-gradient(to right, #06283d,  #005268);
-    background-clip: text;
-    color: transparent;
-
+.heading-secondary {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #06283d, #005268);
+  background-clip: text;
+  color: transparent;
 }
-.description{
-    padding: 3rem;
-    color: #06283d ;
-    font-size: 1.5rem;
-    font-weight: 400;
+.description {
+  padding: 3rem;
+  color: #06283d;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 /* Responsive */
 @media (max-width: 1000px) {
-
-    .heading-secondary{
-        font-size: 3rem;
-    }
-
-
+  .heading-secondary {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 800px) {
-
-    .resume{
-        background-color: #D3F4FF;
-        padding: 6rem 0.8rem;
-    }
-
+  .resume {
+    background-color: #d3f4ff;
+    padding: 6rem 0.8rem;
+  }
 }

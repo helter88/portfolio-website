@@ -1,24 +1,23 @@
-import { ReactComponent as Globe } from './../../img/card-icons/internet-icon.svg';
-import { ReactComponent as RegisterForm } from './../../img/card-icons/RegisterForm-icon.svg';
-import { ReactComponent as ToDoList } from './../../img/card-icons/ToDoList-icon.svg';
-import { ReactComponent as GetData } from './../../img/card-icons/GetData-icon.svg';
-import { ReactComponent as Shop } from './../../img/card-icons/e-commerse-icon.svg';
+import { ReactComponent as Globe } from "./../../img/card-icons/internet-icon.svg";
+import { ReactComponent as RegisterForm } from "./../../img/card-icons/RegisterForm-icon.svg";
+import { ReactComponent as ToDoList } from "./../../img/card-icons/ToDoList-icon.svg";
+import { ReactComponent as GetData } from "./../../img/card-icons/GetData-icon.svg";
+import { ReactComponent as Shop } from "./../../img/card-icons/e-commerse-icon.svg";
 
 export interface IconsType {
-    Globe: typeof Globe,
-    Shop: typeof Shop,
-    RegisterForm: typeof RegisterForm,
-    ToDoList: typeof ToDoList,
-    GetData: typeof GetData
+  Globe: typeof Globe;
+  Shop: typeof Shop;
+  RegisterForm: typeof RegisterForm;
+  ToDoList: typeof ToDoList;
+  GetData: typeof GetData;
 }
 
-
-const icons: IconsType ={
-    Globe, 
-    Shop,
-    RegisterForm, 
-    ToDoList, 
-    GetData
-}
+const icons: IconsType = {
+  Globe,
+  Shop,
+  RegisterForm,
+  ToDoList,
+  GetData,
+};
 
 export default icons;

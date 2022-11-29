@@ -1,13 +1,12 @@
-.footer{
-    background-image: linear-gradient(to left, #005268,#06283d);
-   
-    width: 100%;
-    padding: 2rem;
-    
+.footer {
+  background-image: linear-gradient(to left, #005268, #06283d);
+
+  width: 100%;
+  padding: 2rem;
 }
-.footer p{
-    padding: .4rem;
-    text-align: center;
-    color:#a9c3cc;
-    font-size: 0.8rem;
+.footer p {
+  padding: 0.4rem;
+  text-align: center;
+  color: #a9c3cc;
+  font-size: 0.8rem;
 }
